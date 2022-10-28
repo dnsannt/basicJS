@@ -1,0 +1,35 @@
+DEVterminal Node.Js(NPM)
+
+$ npm init                              |  Membuat berkas package.json pada project
+$ npm run test
+$ npm run start 
+
+$ npm install lodash                    | install package lodash
+$ npm install jest --save-dev           | Package jest yang digunakan untuk testing. Package seperti jest ini hanya digunakan saat proses pengembangan aplikasi.
+$ npm fund                              | for detail setelah install jest
+$ npm uninstall <package-name>          | 
+$ npm uninstall lodash                  | uninstall package
+
+$ npm uninstall <package-name> --save-dev   | Jika package terdapat pada devDependencies, kita cukup menambahkan --save-dev di akhir perintahnya.
+
+
+
+$ npm install --save-dev jest   | instalasi library framework jest.
+$ npm run test
+$ npm run test -- --coverage    | Setelah menuliskan semua test case yang ada, dengan jest kita dapat melihat laporan kode yang sudah terdapat pengujian dengan cara sebagai berikut:
+
+$ npm install moment            | package local dependencies moment akan ter install di package.json
+
+
+
+
+
+
+
+$ npm init --y               | membuat proyek baru dengan jawaban/nilai default.
+
+$ node server           | menjalankan server lokal NodeJS
+
+$ npm install @hapi/hapi    | instal hapi
+
+$ npm install nodemon --save-dev    | install package nodemon 
